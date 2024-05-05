@@ -1,0 +1,30 @@
+.body{
+    margin-right: 100px;
+    margin-left: 100px;
+}
+nav{
+    background-color: #EDF0FF;
+    
+}
+a.nav-link:hover{
+    text-decoration: underline overline dotted #C0C8EB  .3em;
+}
+
+.active{
+    font-weight: bold;
+}
+
+hr {
+    border-color: black;
+}
+.c1{
+    height: 350px;
+}
+
+.c2{
+    height: 200px;
+}
+
+.c3{
+    height: 280px;
+}

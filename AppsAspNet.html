@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <title>Tecnologías para desarrollo de aplicaciones web en ASP.NET
+      </title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Tecnologías de Web APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="microservicios.html">Microservicios </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DesWebAPI.html">Desarrollo de una Web API </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contenedores.html">Contenedores </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AppsNube.html">Aplicaciones para la nube  </a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <a class="nav-link active tn dropdown-toggle" aria-current="page" href="AppsAspNet.html" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Aplicaciones web en ASP.NET  </a>
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item" href="#WebForms">Web Forms</a>
+                    <a class="dropdown-item" href="#WCF">WCF</a>
+                    <a class="dropdown-item" href="#MVC">MVC</a>
+                    <a class="dropdown-item" href="#SignalR">SignalR</a>
+                    <a class="dropdown-item" href="#NETCore">ASP.NET Core</a>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div class="body"><br>
+        <hr><h1 class="text-center">Tecnologías para desarrollo de aplicaciones web en ASP.NET</h1><hr>
+        <div id="WebForms"><br><br></div>
+        <h2 >Web Forms</h2>
+        <img src="img/WebForms.png" alt="WebForms" class="float-left">
+        <h5>¿Qué es?</h5>
+        <p>Los formularios Web Forms son páginas que los usuarios solicitan mediante su explorador. Estas páginas se pueden escribir con una combinación de HTML, script de cliente, controles de servidor y código de servidor.</p>
+        <p>Cuando los usuarios solicitan una página, el marco se compila y ejecuta en el servidor y luego el marco genera el marcado HTML que el explorador puede representar.</p>
+        <p>Una página de ASP.NET Web Forms presenta información al usuario en cualquier dispositivo cliente o explorador.</p>
+        <br><h6>ASP.NET WEB FORMS ofrece</h6>
+        <div class="row">
+          <div class="col-sm-2">
+            <div class="card c2">
+              <div class="card-body">
+                  <p class="card-text">Separación de HTML y otro código de interfaz de usuario de la lógica de la aplicación.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+            <div class="card c2">
+              <div class="card-body">
+                <p class="card-text">Amplio conjunto de controles de servidor para tareas comunes, incluido acceso a datos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2">
+              <div class="card c2">
+                <div class="card-body">
+                  <p class="card-text">Enlace de datos eficaz, con gran compatibilidad con herramientas.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-2">
+              <div class="card c2">
+                <div class="card-body">
+                  <p class="card-text">Compatibilidad con scripting del lado cliente que se ejecuta en el explorador.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card c2">
+                <div class="card-body">
+                  <p class="card-text">Compatibilidad con diversas funcionalidades,
+                    como enrutamiento, seguridad, rendimiento,
+                    internacionalización, pruebas, depuración,
+                    control de errores y administración de estado.</p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+
+        <div id="WCF"><br><br></div>
+        <h2 >Windows Communication Foundation (WCF)</h2>
+        <p>Es un marco para crear aplicaciones orientadas a servicios.</p>
+        <p>es posible enviar datos como mensajes asincrónicos de un punto de conexión de servicio a otro. Un extremo de servicio puede formar parte de un servicio disponible continuamente hospedado por IIS, o puede ser un servicio hospedado en una aplicación. Un extremo puede ser un cliente de un servicio que solicita datos de un extremo de servicio.</p>
+        <h5>Características</h5>
+        <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="l-1-list" data-toggle="list" href="#l-1" role="tab" aria-controls="home">Orientación a servicios</a>
+              <a class="list-group-item list-group-item-action" id="l-2-list" data-toggle="list" href="#l-2" role="tab" aria-controls="profile">Interoperabilidad</a>
+              <a class="list-group-item list-group-item-action" id="l-3-list" data-toggle="list" href="#l-3" role="tab" aria-controls="messages">Varios patrones de mensajes</a>
+              <a class="list-group-item list-group-item-action" id="l-4-list" data-toggle="list" href="#l-4" role="tab" aria-controls="settings">Metadatos de servicios</a>
+              <a class="list-group-item list-group-item-action" id="l-5-list" data-toggle="list" href="#l-5" role="tab" aria-controls="settings">Contratos de datos</a>
+              <a class="list-group-item list-group-item-action" id="l-6-list" data-toggle="list" href="#l-6" role="tab" aria-controls="settings">Seguridad</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="l-1" role="tabpanel" aria-labelledby="l-1-list">La arquitectura orientada a servicios es el uso de servicios web para enviar y recibir datos. Los servicios tienen la ventaja general de estar débilmente acoplados entre una aplicación y otra en lugar de incluidos en el código. Una relación de acoplamiento débil implica que cualquier cliente creado en cualquier plataforma puede conectar con cualquier servicio siempre y cuando se cumplan los contratos esenciales.</div>
+              <div class="tab-pane fade" id="l-2" role="tabpanel" aria-labelledby="l-2-list">WCF implementa estándares del sector modernos para la interoperabilidad de los servicios web. Para obtener más información sobre los estándares admitidos, consulte <a href="https://learn.microsoft.com/es-es/dotnet/framework/wcf/feature-details/interoperability-and-integration" target="_blank">Interoperabilidad e integración.</a></div>
+              <div class="tab-pane fade" id="l-3" role="tabpanel" aria-labelledby="l-3-list">Los mensajes se intercambian mediante uno de los distintos patrones. El más común es el de solicitud/respuesta, en que un extremo solicita datos de otro extremo. y el otro extremo responde. Existen otros patrones, como un mensaje unidireccional, en que un único extremo envía un mensaje sin esperar ninguna respuesta. Un patrón más complejo es el patrón de intercambio dúplex donde dos extremos establecen una conexión y envían datos hacia delante y hacia atrás, similar a un programa de mensajería instantánea.</div>
+              <div class="tab-pane fade" id="l-4" role="tabpanel" aria-labelledby="4-list">WCF admite la publicación de metadatos de servicios con los formatos especificados en los estándares de la industria, como WSDL, Esquema XML y WS-Policy. Estos metadatos pueden utilizarse para generar y configurar clientes de forma automática para el acceso a los servicios de WCF. Los metadatos se pueden publicar sobre HTTP y HTTPS, o utilizando el estándar Intercambio de metadatos de servicios web.</div>
+              <div class="tab-pane fade" id="l-5" role="tabpanel" aria-labelledby="l-5-list">Dado que WCF se compila con NET Framework, también incluye métodos con código sencillo para proporcionar los contratos que quiere aplicar. Básicamente, mientras se escribe el código del servicio usando Visual C# o Visual Basic, la forma más sencilla de controlar los datos consiste en crear clases que representan una entidad de datos con propiedades que pertenecen a la misma. WCF incluye un completo sistema para trabajar con datos de esta manera fácil. Cuando se han creado las clases que representan los datos, el servicio genera automáticamente los metadatos que permiten a los clientes ajustarse a los tipos de datos que se han diseñado.</div>    
+              <div class="tab-pane fade" id="l-6" role="tabpanel" aria-labelledby="l-6-list">Es posible cifrar los mensajes para proteger la privacidad, así como obligar a los usuarios a que se autentiquen antes de permitirles recibir mensajes. </div>    
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-4">
+            <div class="list-group" id="list-tab" role="tablist">
+              <a class="list-group-item list-group-item-action active" id="l-7-list" data-toggle="list" href="#l-7" role="tab" aria-controls="settings">Varios transportes y codificaciones</a>
+              <a class="list-group-item list-group-item-action" id="l-8-list" data-toggle="list" href="#l-8" role="tab" aria-controls="settings">Mensajes confiables y en cola</a>
+              <a class="list-group-item list-group-item-action" id="l-9-list" data-toggle="list" href="#l-9" role="tab" aria-controls="settings">Mensajes duraderos</a>
+              <a class="list-group-item list-group-item-action" id="l-10-list" data-toggle="list" href="#l-10" role="tab" aria-controls="settings">Transactions</a>
+              <a class="list-group-item list-group-item-action" id="l-11-list" data-toggle="list" href="#l-11" role="tab" aria-controls="settings">Compatibilidad con AJAX y REST</a>
+              <a class="list-group-item list-group-item-action" id="l-12-list" data-toggle="list" href="#l-12" role="tab" aria-controls="settings">Extensibilidad</a>
+            </div>
+          </div>
+          <div class="col-8">
+            <div class="tab-content" id="nav-tabContent">
+              <div class="tab-pane fade show active" id="l-7" role="tabpanel" aria-labelledby="l-7-list">Los mensajes pueden enviarse con cualquiera de los protocolos y codificaciones integrados. La combinación más frecuente de protocolo y codificación consiste en enviar mensajes SOAP codificados de texto con HTTP para su uso en la WWW. Estos mensajes pueden codificarse como texto o utilizando un formato binario optimizado.</div>
+              <div class="tab-pane fade" id="l-8" role="tabpanel" aria-labelledby="l-8-list">WCF admite el intercambio de mensajes confiable mediante sesiones confiables implementadas a través de mensajes de confianza de WS y con MSMQ. </div>
+              <div class="tab-pane fade" id="l-9" role="tabpanel" aria-labelledby="l-9-list">Un mensaje duradero es aquel que nunca se pierde debido a una interrupción de la comunicación. Los mensajes que forman parte de un patrón de mensajes duraderos siempre se guardan en una base de datos.</div>
+              <div class="tab-pane fade" id="l-10" role="tabpanel" aria-labelledby="l-10-list">WCF también admite las transacciones que usan uno de los tres modelos de transacción: las transacciones WS-Atomic, las API del espacio de nombres System.Transactions y el Coordinador de transacciones distribuidas de Microsoft.</div>
+              <div class="tab-pane fade" id="l-11" role="tabpanel" aria-labelledby="l-11-list">REST es un ejemplo de una tecnología de la Web 2.0 en evolución. WCF se puede configurar para procesar datos XML "sin formato" que no se encapsulan en una envoltura SOAP. WCF también se puede extender para admitir formatos XML concretos, como ATOM (un estándar popular de RSS), e incluso formatos no XML, como la notación de objetos JavaScript (JSON).</div>
+              <div class="tab-pane fade" id="l-12" role="tabpanel" aria-labelledby="l-12-list">Si se necesita una función adicional, existen una serie de puntos de entrada que le permiten personalizar el comportamiento de un servicio. </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="MVC"><br><br></div>
+        <h2>MVC</h2>
+        <div class="text-center rounded float-right"><img src="img/MVC.jpg" alt="MVC"></div>
+        <p>El patrón arquitectónico de Modelo-Vista-Controlador (MVC) separa una aplicación en tres componentes principales: el modelo, la vista y el controlador. Es un marco de presentación ligero y muy fácil de probar</p>
+        <h5>Modelo</h5>
+        <p>Son las partes de la aplicación que implementan la lógica del dominio de datos de la aplicación</p>
+        <h5>Vista</h5>
+        <p>Son los componentes que muestra la interfaz de usuario (IU) de la aplicación. Normalmente, esta interfaz de usuario se crea a partir de los datos del modelo.</p>
+        <h5>Controlador</h5>
+        <p>Son los componentes que controlan la interacción del usuario, trabajan con el modelo y, en último término, seleccionan una vista para representar la interfaz de usuario.</p>
+        <br><p>En una aplicación de MVC, la vista solo muestra información; el controlador controla y responde a la interacción y los datos que introducen los usuarios.</p>
+        <p>El patrón de MVC le ayuda a crear aplicaciones que separan los diferentes aspectos de la aplicación (lógica de entrada, lógica empresarial y lógica de la interfaz de usuario), a la vez que proporciona un acoplamiento vago entre estos elementos. </p>
+
+
+        <div id="SignalR"><br><br></div>
+        <h2>SignalR</h2>
+        <h5>¿Qué es?</h5>
+        <p>Es una biblioteca de código abierto que simplifica la adición de funcionalidad web en tiempo real a las aplicaciones. La funcionalidad web en tiempo real permite que el código del lado del servidor envíe contenido a los clientes al instante.</p>
+        <p>Puede utilizarse SignalR para añadir cualquier tipo de funcionalidad web en tiempo real a una aplicación ASP.NET. </p>
+        <p>También permite tipos completamente nuevos de aplicaciones web que requieren actualizaciones de alta frecuencia del servidor, como los juegos en tiempo real.</p>
+        <p>Ofrece una API sencilla para crear llamadas de procedimiento remoto (RPC) de servidor a cliente que llaman a funciones JavaScript en exploradores cliente (y otras plataformas cliente) desde código .NET de servidor. SignalR también incluye API para la administración de conexiones (por ejemplo, eventos de conexión y desconexión) y la agrupación de conexiones.</p>
+        <div class="text-center"><img src="img/Signal R.png" alt="Signal R"></div>
+        <h5>Transportes</h5>
+        <p>SignalR admite las siguientes técnicas para manejar la comunicación en tiempo real (en orden de reserva):</p>
+        <ul>
+          <li>
+            <h6>WebSockets</h6>
+            <p>Es el único transporte que establece una auténtica conexión bidireccional persistente entre el cliente y el servidor</p>
+            <p>Es el transporte óptimo para SignalR porque ofrece:</p>
+            <ul>
+                <li>El uso más eficiente de la memoria del servidor</li>
+                <li>La latencia más baja</li>
+                <li>Las características más subyacentes, como la comunicación dúplex completa entre el cliente y el servidor</li>
+                <li>Los requisitos más estrictos, ya que WebSocket requiere que el servidor</li>
+            </ul>
+          </li>
+          <li>
+            <h6>Eventos enviados por el servidor</h6>
+            <p>Si el explorador es compatible con los eventos enviados del servidor, como ocurre con, básicamente, todos los exploradores salvo Internet Explorer</p>
+          </li>
+          <li>
+            <h6> Sondeo largo Ajax</h6>
+             <p>No crean una conexión persistente, sino que sondean el servidor con una solicitud que permanece abierta hasta que el servidor responda, momento en el que se termina la conexión y se solicita inmediatamente una nueva. Esto puede provocar cierta latencia durante el tiempo que tarda en restablecerse la conexión.</p>
+          </li>
+        </ul>
+        <p>SignalR elige automáticamente el mejor método de transporte que está dentro de las capacidades del servidor y el cliente.</p>
+        <h5>Diagrama de la arquitectura</h5>
+        <div class="text-center"><img src="img/diagrama.png" alt="Diagrama de la arquitectura"></div>
+
+        <div id="NETCore"><br><br></div>
+        <h2>ASP.NET Core</h2>
+        <p>Es el marco de desarrollo web moderno y de alto rendimiento para compilar aplicaciones web en la Platafroma .NET.</p>
+        <p>Es más rápido que otros marcos web.</p>
+        <p>Es de código abierto en GitHub .NET</p>
+        <h5>Moderno e innovador</h5>
+        <img src="img/ASPNetCore.png" alt="ASP.NET Core" class="rounded float-left">
+        <ul>
+          <li>Está diseñado para permitir que los componentes en tiempo de ejecución.</li>
+          <li>Proporciona una plataforma estable y compatible para mantener las aplicaciones en ejecución.</li>
+          <li>Pueden existir varias versiones de ASP.NET Core en paralelo en el mismo servidor.</li>
+          <li>ASP.NET Core proporciona varias opciones de soporte técnico de ciclo de vida para satisfacer las necesidades de la aplicación.</li>
+        </ul>
+        <br><ul>
+          <li>
+            <h3>Razor</h3>
+            <p>Razor es una sintaxis de marcado que le permite incrustar código basado en servidor (Visual Basic y C#) en páginas web.</p>
+            <p>El código basado en servidor puede crear contenido web dinámico sobre la marcha, mientras se escribe una página web en el navegador. Cuando se llama a una página web, el servidor ejecuta el código basado en el servidor dentro de la página antes de devolverla al navegador. Al ejecutarse en el servidor, el código puede realizar tareas complejas, como acceder a bases de datos.</p>
+            <p>Razor admite C# (C sostenido) y VB (Visual Basic).</p>
+          </li>
+          <li>
+            <h3>Blazor</h3>
+            <p>Es un marco web de front-end de .NET que admite la representación del lado servidor y la interactividad del cliente en un único modelo de programación</p>
+            <p>Con Blazor, compile aplicaciones web con componentes reutilizables que se pueden ejecutar tanto desde el cliente como desde el servidor para que pueda ofrecer excelentes experiencias web.</p>
+            <ul>
+              <li>Cree interfaces de usuario interactivas enriquecidas con C#.</li>
+              <li>Comparta la lógica de aplicación del lado cliente y servidor escrita con .NET.</li>
+              <li>Represente la interfaz de usuario como HTML y CSS para la compatibilidad con todos los exploradores, incluidos los móviles.</li>
+              <li>Cree aplicaciones híbridas de escritorio y móviles con .NET y Blazor.</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+
+</body>
+</html>

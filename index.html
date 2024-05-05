@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Tecnologías de Web APIs</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container-fluid">
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Tecnologías de Web APIs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="microservicios.html">Microservicios </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="DesWebAPI.html">Desarrollo de una Web API </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contenedores.html">Contenedores </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AppsNube.html">Aplicaciones para la nube  </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="AppsAspNet.html">Aplicaciones web en ASP.NET  </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+      <div class="body"><br>
+      <hr><h1 class="text-center">Tecnologías de Web APIs</h1><hr>
+      <div class="text-center"><img src="img/API.jpg" class="img-fluid" alt="API" ></div>
+      <h2>API</h2>
+      <h4 class="text-muted">Interfaz de programación de aplicaciones </h4>
+      <p>Mecanismos que permiten a dos componentes de software comunicarse entre sí mediante un conjunto de definiciones y protocolos. </p>
+      <p>Actúa como una capa intermedia que procesa las transferencias
+        de datos entre sistemas, permitiendo a las empresas abrir sus datos y
+        funcionalidades de aplicaciones a desarrolladores externos, socios
+        comerciales y departamentos internos dentro de sus empresas.</p>
+    <h2>¿Cómo funcionan las API?</h2>
+    <p>La arquitectura de las API suele explicarse en términos de cliente y servidor. La aplicación que envía la solicitud se llama cliente, y la que envía la respuesta se llama servidor. </p>
+    <p>Permiten que sus productos y servicios se comuniquen con otros, sin necesidad de saber cómo están implementados. Esto simplifica el desarrollo de las aplicaciones y permite ahorrar tiempo y dinero. Las API le otorgan flexibilidad; simplifican el diseño, la administración y el uso de las aplicaciones; y ofrecen oportunidades de innovación, lo cual es ideal al momento de diseñar herramientas y productos nuevos (o de gestionar los actuales).</p>
+
+
+    <hr>
+    <div class="row">
+        <div class="col-sm-3">
+          <div class="card c1">
+            <div class="card-body">
+                <h5 class="card-title">SOAP</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Simple Object Access Protocol</h6>
+                <p class="card-text">Estas API utilizan el protocolo simple de acceso a objetos. El cliente y el servidor intercambian mensajes mediante XML. Se trata de una API menos flexible que era más popular en el pasado.</p>
+                <a href="https://es.linkedin.com/pulse/soap-definici%C3%B3n-caracter%C3%ADsticas-usabilidad-beneficios-ojeda-montoya" class="btn btn-primary" target="_blank">Conocer más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card c1">
+            <div class="card-body">
+              <h5 class="card-title">REST</h5>
+              <p class="card-text">Estas son las API más populares y flexibles que se encuentran en la web actualmente. El cliente envía las solicitudes al servidor como datos. El servidor utiliza esta entrada del cliente para iniciar funciones internas y devuelve los datos de salida al cliente.</p>
+              <a href="https://www.redhat.com/es/topics/api/what-is-a-rest-api" class="btn btn-primary" target="_blank">Conocer más</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="card c1">
+              <div class="card-body">
+                <h5 class="card-title">HTTP</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Hypertext Transfer Protocol</h6>
+                <p class="card-text">Es un protocolo de la capa de aplicación para la transmisión de documentos hipermedia, como HTML. Sigue el clásico modelo cliente-servidor.</p>
+                <a href="https://www.cloudflare.com/es-es/learning/ddos/glossary/hypertext-transfer-protocol-http/" class="btn btn-primary" target="_blank">Conocer más</a>
+            </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="card c1">
+              <div class="card-body">
+                <h5 class="card-title">JWT</h5>
+                <h6 class="card-subtitle mb-2 text-muted">Json Web Token</h6>
+                <p class="card-text">Es un estándar abierto (RFC-7519) basado en JSON para crear un token que sirva para enviar datos entre aplicaciones o servicios y garantizar que sean válidos y seguros.</p>
+                <a href="https://platzi.com/blog/introduccion-json-web-tokens/" class="btn btn-primary" target="_blank">Conocer más</a>
+              </div>
+            </div>
+          </div>
+      </div>
+      <br>
+
+      <p>Las APIs web parten de esa idea: La invocación de una funcionalidad que es externa al programa. La diferencia radica en que una API Web se invoca y devuelve resultados usando la infraestructura de Internet. Esto significa que las funcionalidades son publicadas en un servidor que puede responder a peticiones en el protocolo HTTP y que es a través de ese protocolo que se puede invocar a tales funcionalidades. Del mismo modo, los resultados deben envolverse en una respuesta HTTP y codificarse utilizando un formato estandarizado. Típicamente, JSon o XML.</p>
+      <h2>Diferencias entre SOAP y SOA</h2><br>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th scope="col">SOAP</th>
+          <th scope="col">SOA</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Protocolo Simple de Acceso a Objetos</td>
+            <td>Arquitectura Orientada a Servicios</td>
+        </tr>
+        <tr>
+          <td>Es una de las tecnologías que puede utilizarse en una arquitectura SOA, pero SOA abarca un enfoque más amplio que incluye la gestión de servicios, la orquestación y la exposición de servicios.</td>
+            <td> promueve la creación de sistemas distribuidos donde los servicios son componentes independientes que se pueden acceder de manera remota.</td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+</body>
+</html>
